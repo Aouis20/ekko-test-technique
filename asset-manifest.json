@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ekko-test-technique/static/css/main.073c9b0a.css",
+    "main.js": "/ekko-test-technique/static/js/main.0238871a.js",
+    "static/js/787.e8349976.chunk.js": "/ekko-test-technique/static/js/787.e8349976.chunk.js",
+    "static/media/logo.svg": "/ekko-test-technique/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ekko-test-technique/index.html",
+    "main.073c9b0a.css.map": "/ekko-test-technique/static/css/main.073c9b0a.css.map",
+    "main.0238871a.js.map": "/ekko-test-technique/static/js/main.0238871a.js.map",
+    "787.e8349976.chunk.js.map": "/ekko-test-technique/static/js/787.e8349976.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0238871a.js"
+  ]
+}
