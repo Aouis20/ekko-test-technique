@@ -36,9 +36,9 @@ function App() {
         {/* Number Input */}
         <section>
           <h2>Entre un nombre et découvre comment l'écrire en anglais  (0-99)</h2>
-          <form>
-            <input type="number" name="number" min="0" max="99" value={number} onChange={e => setNumber(e.target.value)} />
-          </form>
+          <div>
+            <input type="number" id="input-number" min="0" max="99" value={number} onChange={e => setNumber(e.target.value)} />
+          </div>
         </section>
 
         {/* Translate */}

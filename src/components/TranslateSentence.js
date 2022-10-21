@@ -1,15 +1,16 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 
 const TranslateSentence = ({ number }) => {
   const [enWord, setEnWord] = useState("")
   const unites = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
   const tens = ['', 'ten','twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-  const uniqueNumbers = ['', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
+  const uniqueNumbers = ['', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
 
   useEffect(() => {
     if (number.length > 1) {        // 10+
       if (parseInt(number) !== 10) {      // 10
-        if (parseInt(number)%10 !== 0) {            // 20,30,40...
+        if (parseInt(number)%10 !== 0) {      // 20,30,40...
           if (parseInt(number) < 20 ) {       // 11,12,12...
             return setEnWord(uniqueNumbers[number[1]])
           }
@@ -23,8 +24,9 @@ const TranslateSentence = ({ number }) => {
   }, [number])
 
   return (
-    <div>
-      {enWord && <p>Le {number.length > 1 ? 'nombre' : 'chiffre'} {number} s'écrit <i>"{enWord}"</i> en anglais.</p>}
+    <div className='sentence'>
+      {console.log(number, enWord)}
+      {number.length<=2 && <p>Le {number.length > 1 ? 'nombre' : 'chiffre'} <b>{number}</b> s'écrit <i>"{enWord}"</i> en anglais.</p>}
     </div>
   )
 }

@@ -62,3 +62,15 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+#input-number {
+    box-shadow: none;
+    text-align: center;
+    padding: 4px;
+    font-size: larger;
+    border-radius: 16px;
+}
+
+.sentence {
+    font-size: larger;
+}
