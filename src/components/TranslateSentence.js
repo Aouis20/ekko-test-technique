@@ -26,7 +26,7 @@ const TranslateSentence = ({ number }) => {
   return (
     <div className='sentence'>
       {console.log(number, enWord)}
-      {number.length<=2 && <p>Le {number.length > 1 ? 'nombre' : 'chiffre'} <b>{number}</b> s'écrit <i>"{enWord}"</i> en anglais.</p>}
+      {parseInt(number)>= 0 && parseInt(number)<100 && <p>Le {number.length > 1 ? 'nombre' : 'chiffre'} <b>{number}</b> s'écrit <i>"{enWord}"</i> en anglais.</p>}
     </div>
   )
 }
