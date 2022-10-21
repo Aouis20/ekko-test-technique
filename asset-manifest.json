@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ekko-test-technique/static/css/main.565b84e9.css",
-    "main.js": "/ekko-test-technique/static/js/main.2e32fea5.js",
+    "main.css": "/ekko-test-technique/static/css/main.4125d6e4.css",
+    "main.js": "/ekko-test-technique/static/js/main.0d515a70.js",
     "static/js/787.e8349976.chunk.js": "/ekko-test-technique/static/js/787.e8349976.chunk.js",
     "index.html": "/ekko-test-technique/index.html",
-    "main.565b84e9.css.map": "/ekko-test-technique/static/css/main.565b84e9.css.map",
-    "main.2e32fea5.js.map": "/ekko-test-technique/static/js/main.2e32fea5.js.map",
+    "main.4125d6e4.css.map": "/ekko-test-technique/static/css/main.4125d6e4.css.map",
+    "main.0d515a70.js.map": "/ekko-test-technique/static/js/main.0d515a70.js.map",
     "787.e8349976.chunk.js.map": "/ekko-test-technique/static/js/787.e8349976.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.565b84e9.css",
-    "static/js/main.2e32fea5.js"
+    "static/css/main.4125d6e4.css",
+    "static/js/main.0d515a70.js"
   ]
 }
