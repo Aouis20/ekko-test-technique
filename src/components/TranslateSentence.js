@@ -54,7 +54,7 @@ const TranslateSentence = ({ number }) => {
 
   return (
     <div className='sentence'>
-      {parseInt(number) < 0 && <p>Le {number.length > 1 ? 'nombre' : 'chiffre'} <b>{number}</b> s'écrit <i>"{enWord}"</i> en anglais.</p>}
+      {parseInt(number) > 0 && <p>Le {number.length > 1 ? 'nombre' : 'chiffre'} <b>{number}</b> s'écrit <i>"{enWord}"</i> en anglais.</p>}
     </div>
   )
 }
