@@ -22,9 +22,9 @@ function App() {
         {/* Socials */}
         <div className="socials">
           <ul>
-            <li><a href="https://github.com/Aouis20"><img className='logo github' src="https://img.icons8.com/ios-glyphs/344/github.png" alt='aouis-github'/></a></li>
-            <li><a href="https://www.linkedin.com/in/aouis-choukri/"><img className='logo linkedin' src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt='aouis-linkedin'/></a></li>
-            <li><a href="http://aouis.alwaysdata.net"><img className='logo projects' src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png" alt='aouis-projects'/></a></li>
+            <li><a href="https://github.com/Aouis20" target="_blank"><img className='logo github' src="https://img.icons8.com/ios-glyphs/344/github.png" alt='aouis-github'/></a></li>
+            <li><a href="https://www.linkedin.com/in/aouis-choukri/" target="_blank"><img className='logo linkedin' src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt='aouis-linkedin'/></a></li>
+            <li><a href="http://aouis.alwaysdata.net" target="_blank"><img className='logo projects' src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png" alt='aouis-projects'/></a></li>
           </ul>
         </div>
 
@@ -35,9 +35,9 @@ function App() {
 
         {/* Number Input */}
         <section>
-          <h2>Entre un nombre et découvre comment l'écrire en anglais  (0-99)</h2>
+          <h2>Entre un nombre et découvre comment l'écrire en anglais :</h2>
           <div>
-            <input type="number" id="input-number" min="0" max="99" value={number} onChange={e => setNumber(e.target.value)} />
+            <input type="number" id="input-number" min="0" value={number} onChange={e => setNumber(e.target.value)} />
           </div>
         </section>
 
